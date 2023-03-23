@@ -1,0 +1,106 @@
+.name {
+color: #e6d700;
+text-align: center;
+border-bottom: 2px solid black;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff,
+       0 0 20px #fff, 0 0 30px #e6d700, 
+       0 0 40px yellow, 0 0 50px yellow, 
+       0 0 60px yellow, 0 0 70px yellow;
+    }
+}
+
+
+
+.mainDiv {
+    width: 980 px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.divTwo {
+    width: 630px;
+    height: 400px;
+    float: right;
+
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.sidebar {
+    background-color: rgb(0, 255, 229);
+    width: 310px;
+    height: 400px;
+    float: left;
+    border-radius: 25px;
+    
+}
+
+footer {
+    position: fixed;
+    margin-top: 2%;
+    height: 50;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    bottom: 0;
+    
+}
+ 
+.Rex {
+    height: 190px;
+    width: 256px;
+    border-radius: 20px;
+}
+
+
+
+.Atomic {
+    height: 190px;
+    width: 262px;
+    border-radius: 20px;
+
+}
+
+
+.Striker {
+    height: 180px;
+    width: 260px;
+    float: middle;
+    border-radius: 20px;
+
+}
+
+.Rock {
+    height: 184px;
+    width: 255px;
+    border-radius: 20px;
+}
+
+   
+    body {
+    background-image: url("images/Mannfield.webp");
+    background-size: cover;
+    font-family: "Amarante", Arial, Helvetica, sans-serif;
+    margin:0; 
+    padding:0; 
+
+    }
+
+
+
